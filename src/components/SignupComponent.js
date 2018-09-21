@@ -44,24 +44,24 @@ class Signup extends Component {
 		return(
 			<div className="row row-content">
 				<div className="col-12">
-					<h3><strong>Log In</strong></h3>
+					<h3><strong>Sig up</strong></h3>
 				</div>
-				<div className="col-12 col-md-9">
+				<div className="col-12 col-md-8 signup-content offset-md-2">
 					<Form  onSubmit={this.handleSubmit}>
 				        <FormGroup row>
-				          <Label for="firtsname" md={2} >Email: </Label>
+				          <Label for="firtsname" md={2} >Firts name: </Label>
 				          <Col md={10}>
 				          	<Input type="text" name="firtsname" id="firtsname" 
-				          	placeholder="Email" 
+				          	placeholder="Firts name" 
 				          	value={this.state.firtsname} 
 				          	onChange={this.handleInputchange} />
 				          </Col>
 				        </FormGroup>
 				        <FormGroup row>
-				          <Label for="lastname" md={2} >Email: </Label>
+				          <Label for="lastname" md={2} >Last name: </Label>
 				          <Col md={10}>
 				          	<Input type="text" name="lastname" id="lastname" 
-				          	placeholder="Email" 
+				          	placeholder="Last name" 
 				          	value={this.state.lastname} 
 				          	onChange={this.handleInputchange} />
 				          </Col>
@@ -88,7 +88,7 @@ class Signup extends Component {
 				        {' '}
 				        <FormGroup row>
                                 <Col md={{size:10, offset: 2}}>
-                                    <Button type="submit" color="primary">
+                                    <Button type="submit" className="btn " color="primary">
                                     Log In
                                     </Button>
                                 </Col>

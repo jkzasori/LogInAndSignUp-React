@@ -21,6 +21,16 @@
 .App-intro {
   font-size: large;
 }
+.login{
+
+}
+.login-title{
+
+}
+.login-content, .signup-content{
+  border: 1px solid #e0d5d5;
+    padding: 35px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

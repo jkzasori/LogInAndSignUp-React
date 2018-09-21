@@ -38,11 +38,11 @@ class Login extends Component {
 	}
 	render() {
 		return(
-			<div className="row row-content">
+			<div className="row row-content ">
 				<div className="col-12">
 					<h3><strong>Log In</strong></h3>
 				</div>
-				<div className="col-12 col-md-9">
+				<div className="col-12 col-md-8 offset-md-2 login-content">
 					<Form  onSubmit={this.handleSubmit}>
 				        <FormGroup row>
 				          <Label for="email" md={2} >Email: </Label>
